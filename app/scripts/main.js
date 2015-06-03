@@ -1,5 +1,10 @@
 /* jshint devel:true */
 (function () {
+  var username = 'bryanCR89';
+  console.log(`github.com/${username}`, `twitter/${username}`);
+
+
+
 	Reveal.initialize({
 		controls: true,
 		progress: true,

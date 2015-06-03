@@ -10,7 +10,7 @@
     <!-- build:css styles/vendor.css -->
     <!-- bower:css -->
     <link rel="stylesheet" href="/bower_components/reveal.js/css/reveal.css">
-    <link rel="stylesheet" href="/bower_components/reveal.js/css/theme/simple.css" id="theme">
+    <link rel="stylesheet" href="/bower_components/reveal.js/css/theme/serif.css" id="theme">
 
     <!-- For syntax highlighting -->
     <link rel="stylesheet" href="/bower_components/reveal.js/lib/css/zenburn.css">
@@ -43,22 +43,24 @@
         <section>
             <h1>Front End Trends</h1>
             <br><br>
-            <pre><code>var username = 'bryanCR89';
-console.log(`github.com/${username}`, `twitter/${username}`);</code></pre>
+              <pre class="social-links"><code>var username = 'bryanCR89';
+console.log(`github.com/${username}`,
+    `twitter/${username}`);</code></pre>
+
         </section>
 
         <section>
-            <h2>Agenda</h2>
-            <ul>
-                <li class="fragment">Why JS?</li>
-                <li class="fragment">Why Front-end?</li>
-                <li class="fragment"></li>
-            </ul>
+          <img src="images/es6.png" alt="Down arrow">
         </section>
 
-        <section>
-            <img src="images/es6.png" alt="Down arrow">
-        </section>
+        <!--<section>-->
+            <!--<h2>Agenda</h2>-->
+            <!--<ul>-->
+                <!--<li class="fragment">Why JS?</li>-->
+                <!--<li class="fragment">Why Front-end?</li>-->
+                <!--<li class="fragment">Frameworks for build large apps</li>-->
+            <!--</ul>-->
+        <!--</section>-->
 
         <section>
             <section><h1>Wait a sec</h1></section>
@@ -90,6 +92,7 @@ console.log(`github.com/${username}`, `twitter/${username}`);</code></pre>
             <ul>
                 <li class="fragment">Learn ES6!</li>
                 <li class="fragment"><a href="https://babeljs.io/" target="_blank">Babeljs.io</a></li>
+                <li class="fragment">Use a Framework for build large apps</li>
             </ul>
         </section>
 
@@ -142,10 +145,125 @@ console.log(`github.com/${username}`, `twitter/${username}`);</code></pre>
             </section>
         </section>
 
-        <section>
-            <h1>Questions?</h1>
-        </section>
+      <section>
+        <h1>Frameworks for build large apps</h1>
+      </section>
 
+      <section>
+        <section>
+          <img src="images/react-flux.png" alt="React + Flux">
+        </section>
+        <section>
+          <h2>React</h2>
+
+          <p>A Javascript library for building user interfaces.</p>
+          <ul>
+            <li class="fragment">React is the 'V' on MVC</li>
+            <li class="fragment">Use virtual DOM</li>
+            <li class="fragment">Can render on the server (NodeJS)</li>
+            <li class="fragment">One way data binding</li>
+            <li class="fragment">Use JSX => XML-like (optional)</li>
+          </ul>
+        </section>
+        <section>
+          <h2>Flux</h2>
+
+          <p>Application architecture for building user interfaces.</p>
+          <ul>
+            <li class="fragment">Unidirectional data flow</li>
+            <li class="fragment">More like a pattern</li>
+          </ul>
+        </section>
+        <section>
+          <h2>Flux Structure</h2>
+          <img src="images/flux-structure.png" alt="Flux Structure">
+        </section>
+      </section>
+
+      <section>
+        <section>
+          <img src="images/angular-js.png" alt="AngularJS">
+          <p>A Javascript framework for building web apps.</p>
+        </section>
+        <section>
+          <h2>Angular 1.x</h2>
+        </section>
+        <section>
+          <h4>Structure</h4>
+          <img src="images/angular-1x-js.png" alt="Angular Structure">
+        </section>
+        <section>
+          <img src="images/two-way-data-binding.png" alt="Two way data binding">
+        </section>
+        <section>
+          <h2>So much magic on large apps</h2>
+        </section>
+        <section>
+          <h2>Dirty checking</h2>
+          <img src="images/sad-panda.png" alt="Sad Panda">
+        </section>
+        <section>
+          <h2>Angular 2.0.0 (Alpha)</h2>
+        </section>
+        <section>
+          <h2>Evolves with ES6 <3</h2>
+        </section>
+        <section>
+          <h2>No more two way data-binding (at least behind the scenes)</h2>
+        </section>
+        <section>
+          <h2>Directed acyclic graph</h2>
+          <img src="images/directed-acyclic-graph.png" alt="Directed acyclic graph">
+        </section>
+        <section>
+          <h2>No more watchers</h2>
+
+          <h2>It uses <a href="https://github.com/btford/zone.js">Zone.js</a></h2>
+        </section>
+        <section>
+          <h2>Component communication</h2>
+          <h2>In the DOM rather than on scopes</h2>
+        </section>
+        <section>
+          <h2>DOM manipulation</h2>
+          <h2 class="fragment">Similar to React</h2>
+        </section>
+        <section>
+          <h2>ES6 Modules</h2>
+        </section>
+        <section>
+          <h2>Directives</h2>
+          <ul>
+            <li class="fragment">Component Directive - Made up of a view & controller</li>
+            <li class="fragment">Decorator Directive - Similar to the ng-directive.</li>
+            <li class="fragment">Viewport Directive - handles html transformations as in ng-if or ng-repeat.</li>
+          </ul>
+        </section>
+      </section>
+
+      <section>
+        <h2>Which one should I choose?</h2>
+        <h3 class="fragment">There is no a right answer for this.</h3>
+        <h3 class="fragment">I try all the options and choose the one that I like most.</h3>
+      </section>
+
+      <section>
+        <section>
+          <h3>If you barely remember the first slide</h3>
+          <img src="images/thinking.gif" alt="Hangover">
+        </section>
+        <section>
+          <img src="images/keep-calm.png" alt="Learn JS">
+        </section>
+      </section>
+
+      <section>
+        <img src="images/quote.png" alt="Aristotle">
+      </section>
+
+      <section>
+            <h1>Thank you</h1>
+        </section>
     </div>
 </div>
 

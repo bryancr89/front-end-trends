@@ -2,38 +2,13 @@
 // endbower
 
 body {
-  background: #fafafa;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #333;
 }
 
-#impress {
-  pre {
-    display: block;
-    position: relative;
-    width: 90%;
-    margin: 15px auto;
-    text-align: left;
-    font-size: .55em;
-    font-family: monospace;
-    line-height: 1.2em;
-    word-wrap: break-word;
-    box-shadow: 0 0 6px rgba(0, 0, 0, .3);
-    code {
-      padding: 5px;
-      overflow: auto;
-      max-height: 400px;
-      word-wrap: normal;
-      display: block;
-      background: #3F3F3F;
-      color: #DCDCDC;
-    }
-  }
-  code {
-    font-family: monospace;
-  }
-}
 
-.step:not(.active) {
-   opacity: 1;
+.reveal {
+  .social-links {
+    font-size: 1em;
+  }
 }
